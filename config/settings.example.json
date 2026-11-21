@@ -1,0 +1,22 @@
+{
+  "expected_nodes": 5,
+  "paths": {
+    "singbox_config": "/etc/v2ray-agent/sing-box/conf/config.json",
+    "hysteria2_config": "/etc/hysteria/config.yaml",
+    "xray_config": "/usr/local/x-ui/bin/config.json",
+    "xui_database": "/etc/x-ui/x-ui.db"
+  },
+  "nodes": {
+    "hysteria2_port": 52851,
+    "reality_port": 32490,
+    "argo_port": 443,
+    "vmess_tls_ws_port": 321,
+    "vmess_ws_port": 80,
+    "reality_sni": "addons.mozilla.org",
+    "vmess_tls_sni": "v.bloggogo.xyz",
+    "vmess_tls_ws_path": "/asdf",
+    "vmess_ws_path": "/dswohhho"
+  },
+  "hysteria2": {"client_sni": "www.bing.com", "insecure": true},
+  "ip_providers": ["https://api.ipify.org", "https://ipv4.icanhazip.com"]
+}
